@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EventRepository extends MongoRepository<Event, String> {
-    Page<Event> findAllOrderByDateTime(Pageable pageable);
+    Page<Event> findAll(Pageable pageable);
 }
