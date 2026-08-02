@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
-@Document(collation = "events")
+@Document(collection = "events")
 @Builder
 @Data
 public class Event {
