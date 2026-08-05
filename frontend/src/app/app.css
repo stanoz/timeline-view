@@ -1,7 +1,18 @@
 button:hover {
   cursor: pointer;
+  background: #498efc;
 }
 
 button {
-  background: red;
+  background: #3b82f6;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  font-size: xxx-large;
+  text-decoration: none;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
