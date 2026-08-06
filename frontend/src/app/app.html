@@ -1,3 +1,5 @@
 <app-header/>
-<button class="text">+</button>
+@if (!currentUrl().includes("add-event")) {
+  <button routerLink="add-event" class="text">+</button>
+}
 <router-outlet/>
